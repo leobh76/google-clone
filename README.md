@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## "Google Clone" Website
+- A "clone" of the Google search, featuring a fully responsive UI and the basic search mechanism using the Google Search API with a custom programmable search engine. (Only the basic search funtionality has been implemented, everything else is just mocking the looks of the real page.
 
-## Getting Started
+![pf-s73-eve-set-14-mockup](https://user-images.githubusercontent.com/105162659/204127247-b9612827-7991-4ded-b965-da0fb2bc88c8.jpg)
 
-First, run the development server:
+#### [Deployed App url](https://google-clone-leobh76.vercel.app/) (deployed using Vercel)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Technologies used:
+- Next.js, Tailwind CSS, Google Search API.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### To run the project:
+- Clone the repo!
+- Run ```yarn install``` on the main folder
+- Run ```yarn dev```
+- Add your own ```.env.local``` file containing your ```API_KEY``` and your ```CONTEXT_KEY```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* This project was made based in a tutorial from Sonny Sangha's Youtube channel. Shoutout to him!
